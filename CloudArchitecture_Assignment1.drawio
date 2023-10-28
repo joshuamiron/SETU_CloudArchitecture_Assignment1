@@ -1,284 +1,232 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T05:10:18.020Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="nKa4oAEBXUbwoeyyeHuh" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-28T00:59:44.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="ZOIttKMUTCTb8ThSPk-f" version="22.0.8" type="github">
   <diagram name="Page-1" id="k9PoG6jxE8hOqWyemZ1y">
-    <mxGraphModel dx="2284" dy="1858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1775" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-16" value="VPC with Public and Private subnets&lt;br&gt;&lt;br&gt;Need to put the web servers in private subnets also and just the bastion servers are in public subnets" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="45" y="40" width="600" height="60" as="geometry" />
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--1" value="Region us-east-1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#147EBA;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="700" width="620" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-17" value="Region" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#147EBA;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="130" width="610" height="510" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-18" value="Availability Zone" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;" parent="1" vertex="1">
-          <mxGeometry x="140" y="150" width="200" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-19" value="Availability Zone" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;" parent="1" vertex="1">
-          <mxGeometry x="400" y="150" width="200" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-20" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#248814;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="110" y="180" width="510" height="410" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-21" value="Public subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="220" width="160" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-22" value="Public subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="420" y="220" width="160" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-23" value="Private subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#147EBA;fillColor=#E6F2F8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="420" y="350" width="160" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-24" value="Private subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#147EBA;fillColor=#E6F2F8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="350" width="160" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-25" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" parent="1" vertex="1">
-          <mxGeometry x="350" y="160" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-26" value="Web servers" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D86613;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.instances;" parent="1" vertex="1">
-          <mxGeometry x="216" y="390" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-27" value="Database servers" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D86613;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.instances;" parent="1" vertex="1">
-          <mxGeometry x="476" y="480" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-28" value="Database servers" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D86613;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.instances;" parent="1" vertex="1">
-          <mxGeometry x="216" y="480" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-29" value="Web servers" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D86613;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.instances;" parent="1" vertex="1">
-          <mxGeometry x="476" y="390" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-30" value="Security group" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;" parent="1" vertex="1">
-          <mxGeometry x="175" y="380" width="385" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-31" value="Security group" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;" parent="1" vertex="1">
-          <mxGeometry x="175" y="470" width="385" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-32" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;" parent="1" vertex="1">
-          <mxGeometry x="350" y="210" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-33" value="S3 gateway" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoints;" parent="1" vertex="1">
-          <mxGeometry x="80" y="390" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kSWyYS9YaNIeZUiBYM_J-34" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
-          <mxGeometry x="50" y="255" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--1" value="Region" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#147EBA;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="700" width="610" height="480" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--2" value="Availability Zone" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;" parent="1" vertex="1">
-          <mxGeometry x="140" y="790" width="200" height="370" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--3" value="Availability Zone" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;" parent="1" vertex="1">
-          <mxGeometry x="400" y="790" width="200" height="370" as="geometry" />
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--2" value="Availability Zone&#xa;us-east-1a" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;" parent="1" vertex="1">
+          <mxGeometry x="140" y="730" width="200" height="640" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--4" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#248814;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="110" y="820" width="510" height="310" as="geometry" />
+          <mxGeometry x="100" y="770" width="540" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--5" value="Public subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="860" width="160" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--6" value="Public subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="420" y="860" width="160" height="110" as="geometry" />
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--3" value="Availability Zone&#xa;us-east-1b" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;" parent="1" vertex="1">
+          <mxGeometry x="400" y="730" width="200" height="640" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--7" value="Private subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#147EBA;fillColor=#E6F2F8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="419" y="990" width="160" height="109" as="geometry" />
+          <mxGeometry x="420" y="1040" width="160" height="300" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--8" value="Private subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#147EBA;fillColor=#E6F2F8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="990" width="160" height="109" as="geometry" />
+          <mxGeometry x="160" y="1040" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--9" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" parent="1" vertex="1">
-          <mxGeometry x="350" y="790" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--10" value="NAT gateway" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.nat_gateway;" parent="1" vertex="1">
-          <mxGeometry x="180" y="895" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--11" value="Server" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D86613;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.instance2;" parent="1" vertex="1">
-          <mxGeometry x="480" y="1033.5" width="40" height="40" as="geometry" />
+        <mxCell id="x-kXU-XskzzcC9wgjosJ-12" value="db server security group" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1240" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--12" value="Auto Scaling group" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.groupCenter;grIcon=mxgraph.aws4.group_auto_scaling_group;grStroke=1;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=center;fontColor=#D86613;dashed=1;spacingTop=25;" parent="1" vertex="1">
-          <mxGeometry x="140" y="980" width="460" height="120" as="geometry" />
+          <mxGeometry x="150" y="1080" width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--22" value="web server security group" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;" parent="1" vertex="1">
+          <mxGeometry x="170" y="1130" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--5" value="Public subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="800" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--6" value="Public subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="420" y="800" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--10" value="NAT gateway" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.nat_gateway;" parent="1" vertex="1">
+          <mxGeometry x="-81" y="820" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--13" value="NAT gateway" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.nat_gateway;" parent="1" vertex="1">
-          <mxGeometry x="520" y="895" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--14" value="Server" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D86613;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.instance2;" parent="1" vertex="1">
-          <mxGeometry x="210" y="1033.5" width="40" height="40" as="geometry" />
+          <mxGeometry x="723.69" y="939.88" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--15" value="S3 gateway" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoints;" parent="1" vertex="1">
           <mxGeometry x="80" y="870" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--16" value="" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;" parent="1" vertex="1">
-          <mxGeometry x="170" y="720" width="400" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--17" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
-          <mxGeometry x="190" y="720" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--18" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" parent="1" vertex="1">
-          <mxGeometry x="500" y="720" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--19" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudwatch;" parent="1" vertex="1">
-          <mxGeometry x="345" y="720" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--20" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" parent="1" vertex="1">
-          <mxGeometry x="270" y="720" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--21" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cost_and_usage_report;" parent="1" vertex="1">
-          <mxGeometry x="420" y="720" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--22" value="&#xa;&#xa;&#xa;Security group" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;" parent="1" vertex="1">
-          <mxGeometry x="160" y="1024.5" width="420" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--23" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;" parent="1" vertex="1">
-          <mxGeometry x="260" y="910" width="40" height="40" as="geometry" />
+          <mxGeometry x="215" y="865" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--24" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;" parent="1" vertex="1">
-          <mxGeometry x="440" y="910" width="40" height="40" as="geometry" />
+          <mxGeometry x="481" y="865" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--25" value="Application Load Balancer" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;" parent="1" vertex="1">
-          <mxGeometry x="250" y="892.5" width="240" height="75" as="geometry" />
+          <mxGeometry x="170" y="835" width="400" height="85" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--26" value="" style="shape=stencil(lVfZctswDPwavWJIggf4nKb/kZk4tadunHHc6+8L1QPZhK3N5E2WscK1S4ATP7xvn942Uwrvp+Ph++b37vm0nfjLlNLudbs57k76NPHjxA8vh+Pm2/Hw8/X5/Pvtabacn34cfs1f+HPGMXGdQSn8Pb8IVNr/F1/P5vvd65W5UBjNC+W8bh4TcRvsO/UE7BslGexjoSjrAI3fBZQicQeATjWMAKEY1wFcqfUBwBpSXQfkbBU0QE5UQNIlWcQLQIMEHmqgmMcuVCoMAI24DICaLKu7gMYW8QLQziOAWMQGaIkiCEm0cTwCCjUE0BRHaqjPAkLqSoQ4ACSRAC717MkqhTryINQduyNlBOgW8QLQPgQI6GOnNcgI9DkDxip1LStQqALaqIeuGiwQEEcuaRkK8iD+iNFPZNSHRpk9oAM99Er5xkNHIRWL+DokcAho1VvzSaODTwGJfVmRHjob1a4aV3FIwfVB3+CQfFkTFlChcEtvxFaVy6i4HnAOlaR5ACMPjYQ9ACpOqEWfwwcCytFXKWGAOPIxVQCIIVBwkiuUwICYXbisq/FxDeAlJ6batTLVG0Ek1LlGrXiAIA8asZvslzqsscln3S3KVb4Gn7WgJD4LEDF2XtEvgKNM9BgYG6EjBbFJAvXRg0QSNHirRbyMxYYBkZqb1AzPvlr80Jp3AZB00SqNjavRdH4fEPy2UYqtdfdXrOSXuKwhAQVx9sdADiSAfEk3ppGuzHCk6N7sFKSfKMBDzFTHKunmWtCUs/VoEVClBCIq9rXFPsKxG2zGLl2zdWjF3G25KlfQgeCFUGyHXTF3oyfbBrtmPvKB4cYd/OhUPgHJBD/Lo4l0rTLJmSdo7hQfjBj3eXN7YUvQ3E1YzR2I/eYqgs/oZEfNxTyCQn7ysvmhuT5c7rUvu/3+fC2+/t/fg/XV+Q7Nj/8A);lineShape=1;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="511.49536449222614" y="889.5034197837199" width="69.63318691595396" height="43.17975589010939" as="geometry" />
+          <mxGeometry x="715.1853644922262" y="934.3834197837199" width="69.63318691595396" height="43.17975589010939" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--27" value="" style="shape=stencil(lVfLctswDPwaXTEkwRfOafofmYlTe+raGcdpm78PVIWyCEXbyU2WFyIeuwA48N3L/uF5NwT3cr2cf+7+HB6v+4G/DSEcTvvd5XDVp4HvB757Ol92Py7n19Pj9Pv5YUSOT7/Ov8cv/J3spFIJo1Vwb9ObTCH9e/F9wh8PpyWeqcQO7x1lv21QhaL0BpFiBQaJfO0NKuUADBy51BkEJgYuFXWg9AaVWLYNcqHSx8CRAjgha056g+iIQQyJKfdBx0wpbhvo37mPIQWqoHCjA32WUqUKYtAQLTNi+8TnBlqHnhpZiEGllWredwaFSUDQwdssae1T2TYYmdMHXTOJAwa+edwMVCAMDISKwQssdKEaLL4C6iUqbPECIlZ5eotHPPIkq3gzwDtLCimwxsqJnqaSqGK88SfC/Ks/ucerDAA+WI6Kp4RIbZUvrglvo17VW3zIiA8fdFzgkcikiXyBF4BXQsdVwAIK4AMlE4F2U8Sg0DS7KBkqsRoUE3OmiGOwSS34BM2hYYWQQyOEkrP4AjxSf3tVeqfEBbSLnzj0IewNmtoiVFy1lWw0Q+D7ro2vRQnQBJyjW9YYJNRRNPEyBeh/MnhlKfD/q/jUmsg8BwqUZW1L0IyfT9yiaOkNis5vkCBf2hK0GJYRVEBDrn0n1XGMRpmSVPocJYGtkVWXZqWIMEks5HsZRM0bqEJMrVfNBh7qTHcaM145UUDjUlo3n1c7gcLMyXYvbfkOMLX4Nk9n7RfYgZUIZhf0DLWmVIumx5NHXM12xiaKYLFTqXAvfk8BUFUnqmkWDu7jN6nf8GhZ1lZi4sW9VDeIvMKj72e7cznI0ttwWcQL8j9eoYrNJ8KLjTdg/1W22eAr6kVu1a25bUmbBxhZ4oCl8etGuIQC+Ood8794fbhdaJ8Ox+N0H17+by/A+mq6PPP9Ow==);lineShape=1;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="522.8829785411369" y="885.1161578272079" width="38.01289071889164" height="50.44985877240674" as="geometry" />
+          <mxGeometry x="726.572978541137" y="929.9961578272079" width="38.01289071889164" height="50.44985877240674" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;" parent="1" source="4Z0nO0ClsvhU4pBVOEX--31" target="4Z0nO0ClsvhU4pBVOEX--13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff0000;exitX=1.005;exitY=0.479;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" parent="1" source="4Z0nO0ClsvhU4pBVOEX--31" target="4Z0nO0ClsvhU4pBVOEX--13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="879.66" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--31" value="Only one NAT gateway in one subnet, due to cost" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="877.5" width="140" height="75" as="geometry" />
+          <mxGeometry x="680" y="795" width="140" height="75" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4Z0nO0ClsvhU4pBVOEX--33" target="4Z0nO0ClsvhU4pBVOEX--43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--33" value="Step 1&lt;br&gt;&lt;br&gt;Create master instance&lt;br&gt;&lt;br&gt;Create AMI&lt;br&gt;&lt;br&gt;Terminate anything running (it creates a VPC automatically)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="80" width="140" height="160" as="geometry" />
+          <mxGeometry x="1010" y="165" width="140" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="wr_tY7_B4a9iIRIc0FbC-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="4Z0nO0ClsvhU4pBVOEX--34" target="wr_tY7_B4a9iIRIc0FbC-1">
+        <mxCell id="wr_tY7_B4a9iIRIc0FbC-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="4Z0nO0ClsvhU4pBVOEX--34" target="wr_tY7_B4a9iIRIc0FbC-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--34" value="Step 2&lt;br&gt;&lt;br&gt;Create a VPC (in two subnets, for load balancing? can you load balance in one subnet? or is that just scaling?)&lt;br&gt;&lt;br&gt;2 AZs&lt;br&gt;2 pub subnets&lt;br&gt;2 priv subnets&lt;br&gt;1 NAT gateway&lt;br&gt;S3 gateway?&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="270" width="140" height="220" as="geometry" />
+          <mxGeometry x="1010" y="355" width="140" height="220" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--35" value="Step 3&lt;br&gt;&lt;br&gt;Launch application into VPC" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="660" width="140" height="110" as="geometry" />
+          <mxGeometry x="1010" y="745" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--39" value="Step 4&lt;br&gt;&lt;br&gt;Test load balancing?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="820" width="140" height="110" as="geometry" />
+          <mxGeometry x="1010" y="905" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--40" value="Step 5&lt;br&gt;&lt;br&gt;Configure scaling?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="990" width="140" height="110" as="geometry" />
+          <mxGeometry x="1020" y="1075" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--41" value="Step 6&lt;br&gt;&lt;br&gt;Test scaling?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="1145" width="140" height="110" as="geometry" />
+          <mxGeometry x="1020" y="1230" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--42" value="Step 3&lt;br&gt;&lt;br&gt;Create security groups&lt;br&gt;Make sure to bind them to the right VPC&lt;br&gt;&lt;br&gt;Update bastion SG to my current IP" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="510" width="140" height="130" as="geometry" />
+          <mxGeometry x="1010" y="595" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--43" value="Use ElasticBeanStalk to create a more interesting app?&lt;br&gt;&lt;br&gt;App tied to a database?&lt;br&gt;&lt;br&gt;Can create an AMI of a database (dynamoDB)?&lt;br&gt;&lt;br&gt;Use an S3 bucket somehow, instead of an EC2 instance?&lt;br&gt;&lt;br&gt;See:&lt;br&gt;&lt;ul style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; list-style-position: initial; list-style-image: initial; color: rgb(29, 33, 37); font-family: &amp;quot;DM Sans&amp;quot;, sans-serif; font-size: 15px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1698115090153_501&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Complete&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; color: rgb(0, 98, 175); text-decoration-line: none; background-color: transparent;&quot; title=&quot;https://awsacademy.instructure.com/courses/54158/modules/items/4706654&quot; target=&quot;_blank&quot; href=&quot;https://awsacademy.instructure.com/courses/54158/modules/items/4706654&quot;&gt;ACF Module 6 Activity : AWS Lambda&amp;nbsp;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Complete&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; color: rgb(0, 98, 175); text-decoration-line: none; background-color: transparent;&quot; title=&quot;https://awsacademy.instructure.com/courses/54158/modules/items/4706656&quot; target=&quot;_blank&quot; href=&quot;https://awsacademy.instructure.com/courses/54158/modules/items/4706656&quot;&gt;ACF Module 6 Activity : AWS Elastic BeanStalk&amp;nbsp;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="1260" y="-45" width="140" height="410" as="geometry" />
+          <mxGeometry x="1260" y="40" width="140" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--44" value="The web servers are in private subnets.&amp;nbsp; How to create a bastion server in public subnets" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="70" y="670" width="530" height="30" as="geometry" />
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--44" value="Load balancer is internet facing and in public subnet.&amp;nbsp; Routes HTTP requests to web servers.&lt;br&gt;The web servers are in private subnets.&lt;br&gt;There is no NAT gateway and web servers themselves cannot reach the internet. I.e.&amp;nbsp;wget http://ipinfo.io/ip -qO - fails.&lt;br&gt;(I didn&#39;t see anything in the assignment that seemed to require a NAT gateway).&lt;br&gt;Web servers can reach the S3 bucket for files.&lt;br&gt;Load balancer can reach the S3 bucket for logging.&lt;br&gt;Each server type has its own security group with specific allowed ports and specific sources:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Bastion can be reached via SSH from my local IP.&amp;nbsp; (I&#39;d have to update the inbound rule if my ISP&lt;/li&gt;&lt;li&gt;refreshes my IP.)&lt;/li&gt;&lt;li&gt;Bastion can reach private subnet via SSH.&lt;/li&gt;&lt;li&gt;Private subnet servers can reach each other via SSH (i.e. you don&#39;t have to logout back to the bastion host).&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;I didn&#39;t auto scale the DB server.&amp;nbsp; While in a real-world scenario you may well have a need, DBs cost more and running&lt;/div&gt;&lt;div&gt;more instances seemed like a potential cost risk.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="60" y="420" width="700" height="220" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--46" value="Step 8&lt;br&gt;&lt;br&gt;Add some custom metrics" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="1315" width="140" height="110" as="geometry" />
+          <mxGeometry x="1020" y="1400" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--47" value="Step 4&lt;br&gt;&lt;br&gt;Configure load balancing" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="730" width="140" height="110" as="geometry" />
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--47" value="Step 4&lt;br&gt;&lt;br&gt;Configure load balancing&lt;br&gt;&lt;br&gt;Internet facing&lt;br&gt;Public or private subnet?&lt;br&gt;HTTP port" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="805" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--48" value="Step 4&lt;br&gt;&lt;br&gt;Create a launch template?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="1200" y="885.12" width="140" height="110" as="geometry" />
+          <mxGeometry x="1200" y="970.12" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--50" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.check;strokeColor=#0080f0;" parent="1" vertex="1">
-          <mxGeometry x="990" y="60" width="50" height="40" as="geometry" />
+          <mxGeometry x="990" y="145" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--51" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.check;strokeColor=#0080f0;" parent="1" vertex="1">
-          <mxGeometry x="980" y="265" width="50" height="40" as="geometry" />
+          <mxGeometry x="980" y="350" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--52" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.check;strokeColor=#0080f0;" parent="1" vertex="1">
-          <mxGeometry x="990" y="490" width="50" height="40" as="geometry" />
+          <mxGeometry x="990" y="575" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--53" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.check;strokeColor=#0080f0;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="650" width="50" height="40" as="geometry" />
+          <mxGeometry x="1000" y="735" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--54" value="" style="labelPosition=right;align=left;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;html=1;shadow=0;dashed=0;strokeColor=#999999;direction=north;" parent="1" vertex="1">
-          <mxGeometry x="910" y="270" width="20" height="500" as="geometry" />
+          <mxGeometry x="910" y="355" width="20" height="500" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--55" value="Week 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="850" y="505" width="60" height="30" as="geometry" />
+          <mxGeometry x="850" y="590" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--56" value="Week 4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="850" y="1024.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="850" y="1109.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--57" value="" style="labelPosition=right;align=left;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;html=1;shadow=0;dashed=0;strokeColor=#999999;direction=north;" parent="1" vertex="1">
-          <mxGeometry x="910" y="820" width="20" height="440" as="geometry" />
+          <mxGeometry x="910" y="905" width="20" height="440" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--59" value="" style="labelPosition=right;align=left;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;html=1;shadow=0;dashed=0;strokeColor=#999999;direction=north;" parent="1" vertex="1">
-          <mxGeometry x="910" y="1310" width="20" height="120" as="geometry" />
+          <mxGeometry x="910" y="1395" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--60" value="Week 5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="850" y="1355" width="60" height="30" as="geometry" />
+          <mxGeometry x="850" y="1440" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--61" value="What costs $$:&lt;br&gt;NAT gateways ($7.56/week each)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Delete when not in use&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Will have to reset ASG values and recreate NAT gateway each time&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Should only ever have one running at a time&lt;br&gt;Load balancers ($3.78/week each)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Should only ever have one running at a time&lt;br&gt;Unused Elastic IP addresses ($0.84/week each)&lt;br&gt;Instances that are larger than nano size ($ - $$$)&lt;br&gt;RDS databases ($$$$)&lt;br&gt;&lt;br&gt;After recording your video you can set your Auto Scaling Group values to 0 (to stop instances running)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-810" y="40" width="570" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--62" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.t2_instance;" parent="1" vertex="1">
-          <mxGeometry x="-60" y="412" width="48" height="48" as="geometry" />
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--63" value="EC2 DB server" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.db_on_instance2;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1265" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--63" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.db_on_instance2;" parent="1" vertex="1">
-          <mxGeometry x="-50" y="530" width="48" height="48" as="geometry" />
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--66" value="S3 bucket" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
+          <mxGeometry x="80" y="940" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--64" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.auto_scaling2;" parent="1" vertex="1">
-          <mxGeometry x="-100" y="320" width="78" height="78" as="geometry" />
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--67" value="&lt;b&gt;Create a file&lt;br&gt;&lt;/b&gt;sudo nano /var/www/html/index.html" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="358" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--65" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.instance2;" parent="1" vertex="1">
-          <mxGeometry x="-110" y="530" width="48" height="48" as="geometry" />
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--68" value="&lt;b&gt;Point a EC2 html file to an S3 bucket:&lt;br&gt;&lt;/b&gt;Here is my image file:&lt;br&gt;&amp;lt;br&amp;gt;&lt;br&gt;&amp;lt;img src=&quot;enter s3 object url here&quot;&amp;gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="410" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--66" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
-          <mxGeometry x="-100" y="192" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--67" value="Create a file&lt;br&gt;sudo nano /var/www/html/index.html" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-790" y="372" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--68" value="Pointa EC2 html file to an S3 bucket:&lt;br&gt;Here is my image file:&lt;br&gt;&lt;br/&gt;&lt;img src=&quot;ENTER YOUR S3 OBJECT URL HERE&quot;&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-790" y="430" width="220" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--69" value="Create a file that writes the instance ID to the file&lt;br&gt;#!/bin/bash&lt;br&gt;echo &quot;&lt;b&gt;Instance ID:&lt;/b&gt; &quot; &amp;gt; /var/www/html/id.html&lt;br&gt;curl --silent http://169.254.169.254/latest/meta-data/instance-id/ &amp;gt;&amp;gt; /var/www/html/id.html" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--69" value="&lt;b&gt;Create a file that writes the instance ID to the file&lt;br&gt;&lt;/b&gt;#!/bin/bash&lt;br&gt;echo &quot;&lt;b&gt;Instance ID:&lt;/b&gt; &quot; &amp;gt; /var/www/html/id.html&lt;br&gt;curl --silent http://169.254.169.254/latest/meta-data/instance-id/ &amp;gt;&amp;gt; /var/www/html/id.html" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-800" y="495" width="490" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--70" value="Create a custom metrics bash file:&lt;br&gt;#!/bin/bash&lt;br/&gt;INSTANCE_ID=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)&lt;br/&gt;USEDMEMORY=$(free -m | awk &#39;NR==2{printf &quot;%.2f\t&quot;, $3*100/$2 }&#39;)&lt;br/&gt;TCP_CONN=$(netstat -an | wc -l)&lt;br/&gt;TCP_CONN_PORT_80=$(netstat -an | grep 80 | wc -l)&lt;br/&gt;IO_WAIT=$(iostat | awk &#39;NR==4 {print $4}&#39;)&lt;br/&gt;aws cloudwatch put-metric-data --metric-name memory-usage --dimensions Instance=$I&lt;br/&gt;NSTANCE_ID --namespace &quot;Custom&quot; --value $USEDMEMORY&lt;br/&gt;aws cloudwatch put-metric-data --metric-name Tcp_connections --dimensions Instance&lt;br/&gt;=$INSTANCE_ID --namespace &quot;Custom&quot; --value $TCP_CONN&lt;br/&gt;aws cloudwatch put-metric-data --metric-name TCP_connection_on_port_80 --dimension&lt;br/&gt;s Instance=$INSTANCE_ID --namespace &quot;Custom&quot; --value $TCP_CONN_PORT_80&lt;br/&gt;aws cloudwatch put-metric-data --metric-name IO_WAIT --dimensions Instance=$INSTAN&lt;br/&gt;CE_ID --namespace &quot;Custom&quot; --value $IO_WAIT" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--70" value="&lt;b&gt;Create a custom metrics bash file:&lt;br&gt;&lt;/b&gt;#!/bin/bash&lt;br&gt;INSTANCE_ID=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)&lt;br&gt;USEDMEMORY=$(free -m | awk &#39;NR==2{printf &quot;%.2f\t&quot;, $3*100/$2 }&#39;)&lt;br&gt;TCP_CONN=$(netstat -an | wc -l)&lt;br&gt;TCP_CONN_PORT_80=$(netstat -an | grep 80 | wc -l)&lt;br&gt;IO_WAIT=$(iostat | awk &#39;NR==4 {print $4}&#39;)&lt;br&gt;aws cloudwatch put-metric-data --metric-name memory-usage --dimensions Instance=$I&lt;br&gt;NSTANCE_ID --namespace &quot;Custom&quot; --value $USEDMEMORY&lt;br&gt;aws cloudwatch put-metric-data --metric-name Tcp_connections --dimensions Instance&lt;br&gt;=$INSTANCE_ID --namespace &quot;Custom&quot; --value $TCP_CONN&lt;br&gt;aws cloudwatch put-metric-data --metric-name TCP_connection_on_port_80 --dimension&lt;br&gt;s Instance=$INSTANCE_ID --namespace &quot;Custom&quot; --value $TCP_CONN_PORT_80&lt;br&gt;aws cloudwatch put-metric-data --metric-name IO_WAIT --dimensions Instance=$INSTAN&lt;br&gt;CE_ID --namespace &quot;Custom&quot; --value $IO_WAIT" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-800" y="578" width="500" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--71" value="Change the permissions of a bash file to be executable:&lt;br&gt;chmod +x mem.sh&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-800" y="837.5" width="320" height="40" as="geometry" />
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--71" value="&lt;b&gt;Change the permissions of a bash file to be executable:&lt;br&gt;&lt;/b&gt;chmod +x mem.sh&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="837.5" width="340" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--73" value="When you have all the configurations completed we want you to record a video (with voice) demo of your working architecture. &lt;br&gt;Please keep this video to 5 minutes (cut/edit as appropriate) - we do NOT need to see how you created your configurations only how they are actually used.&lt;br style=&quot;box-sizing: inherit; color: rgb(29, 28, 29); font-family: Slack-Lato, Slack-Fractions, appleLogo, sans-serif; font-size: 15px; font-variant-ligatures: common-ligatures; background-color: rgb(248, 248, 248);&quot;&gt;&lt;span style=&quot;color: rgb(29, 28, 29); font-family: Slack-Lato, Slack-Fractions, appleLogo, sans-serif; font-size: 15px; font-variant-ligatures: common-ligatures; background-color: rgb(248, 248, 248);&quot;&gt;After recording your video you can set your Auto Scaling Group values to zero (to stop instances running) and delete your NAT Gateway to save costs &lt;br&gt;but you should NOT delete all your configurations as you will need to show these again on your Zoom call demo. &lt;br&gt;&lt;br&gt;(Obviously you will need to reset your ASG values and recreate your NAT Gateway for this). &lt;br&gt;&lt;br&gt;The main reason for the video is just in case your Zoom demo does not go as planned.&lt;/span&gt;&lt;br style=&quot;box-sizing: inherit; color: rgb(29, 28, 29); font-family: Slack-Lato, Slack-Fractions, appleLogo, sans-serif; font-size: 15px; font-variant-ligatures: common-ligatures; background-color: rgb(248, 248, 248);&quot;&gt;&lt;span style=&quot;color: rgb(29, 28, 29); font-family: Slack-Lato, Slack-Fractions, appleLogo, sans-serif; font-size: 15px; font-variant-ligatures: common-ligatures; background-color: rgb(248, 248, 248);&quot;&gt;Of course if you have an automated way of tearing down your setup and recreating it then it makes sense to use this !&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-800" y="1250" width="1020" height="170" as="geometry" />
+          <mxGeometry x="-810" y="1490" width="1020" height="170" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--74" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.check;strokeColor=#0080f0;" parent="1" vertex="1">
-          <mxGeometry x="990" y="808" width="50" height="40" as="geometry" />
+          <mxGeometry x="990" y="893" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--75" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.check;strokeColor=#0080f0;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="710" width="50" height="40" as="geometry" />
+          <mxGeometry x="1170" y="795" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--77" value="Scripts:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-810" y="330" width="60" height="30" as="geometry" />
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--77" value="Scripts:" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-800" y="328" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--78" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.check;strokeColor=#0080f0;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="860" width="50" height="40" as="geometry" />
+          <mxGeometry x="1170" y="945" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--79" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.check;strokeColor=#0080f0;" parent="1" vertex="1">
-          <mxGeometry x="990" y="970" width="50" height="40" as="geometry" />
+          <mxGeometry x="990" y="1055" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4Z0nO0ClsvhU4pBVOEX--80" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.check;strokeColor=#0080f0;" parent="1" vertex="1">
-          <mxGeometry x="990" y="1130" width="50" height="40" as="geometry" />
+          <mxGeometry x="990" y="1215" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4Z0nO0ClsvhU4pBVOEX--81" value="Script for S3 bucket policy for load balancing logs:&lt;br&gt;&lt;br&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;Version&quot;: &quot;2012-10-17&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;Statement&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Effect&quot;: &quot;Allow&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Principal&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;AWS&quot;: &quot;arn:aws:iam::127311923021:root&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Action&quot;: &quot;s3:PutObject&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Resource&quot;: &quot;arn:aws:s3:::assignment1-s3bucket/AWSLogs/235888992803/*&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--81" value="&lt;b&gt;Script for S3 bucket policy for load balancing logs:&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;Version&quot;: &quot;2012-10-17&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;Statement&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Effect&quot;: &quot;Allow&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Principal&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;AWS&quot;: &quot;arn:aws:iam::127311923021:root&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Action&quot;: &quot;s3:PutObject&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Resource&quot;: &quot;arn:aws:s3:::assignment1-s3bucket/AWSLogs/235888992803/*&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-790" y="930" width="450" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="wr_tY7_B4a9iIRIc0FbC-1" value="Step 2&lt;br&gt;&lt;br&gt;Do I need a NAT gateway?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="394" width="140" height="116" as="geometry" />
+        <mxCell id="wr_tY7_B4a9iIRIc0FbC-1" value="Step 2&lt;br&gt;&lt;br&gt;Do I need a NAT gateway?&lt;br&gt;&lt;br&gt;Load balancer fwds requests. Internal servers can&#39;t get out, but do I care?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="479" width="140" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="x-kXU-XskzzcC9wgjosJ-2" value="Step 4&lt;br&gt;&lt;br&gt;Can you create a load balancer template?&lt;br&gt;&lt;br&gt;Or script it in somehow?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="805" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="x-kXU-XskzzcC9wgjosJ-3" value="&lt;b&gt;Get my public IP:&lt;br&gt;&lt;/b&gt;wget http://ipinfo.io/ip -qO -" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="1190" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x-kXU-XskzzcC9wgjosJ-4" value="Step 8&lt;br&gt;&lt;br&gt;Had to manually update CLI on my EC2 instances. For whatever reason, mine were coming with version 1.8 instead of 2+." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1400" width="140" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="x-kXU-XskzzcC9wgjosJ-5" value="Step 8&lt;br&gt;&lt;br&gt;Should this be on the bastion or the internal servers?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1400" width="140" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="x-kXU-XskzzcC9wgjosJ-7" value="&lt;b&gt;My index.html code:&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&amp;lt;pre&amp;gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;____ ____ ____ ____ ____&amp;nbsp; &amp;nbsp;____ ____ ____ ____ ____&lt;/div&gt;&lt;div style=&quot;&quot;&gt;||H |||e |||l |||l |||o || ||W |||o |||r |||l |||d ||&lt;/div&gt;&lt;div style=&quot;&quot;&gt;||__|||__|||__|||__|||__|| ||__|||__|||__|||__|||__||&lt;/div&gt;&lt;div style=&quot;&quot;&gt;|/__\|/__\|/__\|/__\|/__\| |/__\|/__\|/__\|/__\|/__\|&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;lt;/pre&amp;gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;lt;br&amp;gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;lt;img style=&quot;max-height:800px; max-width:800px&quot;&amp;nbsp; src=&quot;https://assignment1-s3bucket.s3.amazonaws.com/08015-blob.jpg&quot;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="1240" width="680" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="x-kXU-XskzzcC9wgjosJ-9" value="EC2 web servers" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.instances;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1142" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x-kXU-XskzzcC9wgjosJ-10" value="EC2 web servers" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.instances;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1142" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4Z0nO0ClsvhU4pBVOEX--9" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" parent="1" vertex="1">
+          <mxGeometry x="350" y="740" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x-kXU-XskzzcC9wgjosJ-16" value="load balancer security group" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;" vertex="1" parent="1">
+          <mxGeometry x="180" y="860" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x-kXU-XskzzcC9wgjosJ-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="170" y="930" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="x-kXU-XskzzcC9wgjosJ-15" value="Security group" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;" vertex="1" parent="x-kXU-XskzzcC9wgjosJ-17">
+          <mxGeometry width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="x-kXU-XskzzcC9wgjosJ-11" value="Bastion host" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.instance2;" vertex="1" parent="x-kXU-XskzzcC9wgjosJ-17">
+          <mxGeometry x="50" y="25" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
